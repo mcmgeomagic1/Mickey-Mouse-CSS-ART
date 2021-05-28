@@ -6,8 +6,21 @@
 @font-face {
 	font-family: "Walter";
 	src:
-		url('../fonts/Walter.woff') format('woff'),
-		url('../fonts/Walter.woff2') format('woff2');
+		url('../fonts/Walter/Walter.woff') format('woff'),
+		url('../fonts/Walter/Walter.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "inter";
+	src:
+		url('../fonts/Inter/Inter-Bold.woff') format('woff'),
+		url('../fonts/Inter/Inter-Bold.woff2') format('woff2'),
+		url('../fonts/Inter/Inter-Regular.woff') format('woff'),
+		url('../fonts/Inter/Inter-Regular.woff2') format('woff2'),
+		url('../fonts/Inter/Inter-SemiBold.woff') format('woff'),
+		url('../fonts/Inter/Inter-SemiBold.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -257,7 +270,7 @@ span{
 .medias {
 	margin-top: 1.7em;
 	width: 300px;
-	height: 65px;
+	height: 61px;
 	background: #00101d;
 	border-radius: 5px;
 	display: flex;
