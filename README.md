@@ -1,4 +1,4 @@
-![alt text](http://https://mcmgeomagic1.github.io/Mickey-Mouse-CSS-ART//to/readme1.png)
+![alt text](https://raw.githubusercontent.com/mcmgeomagic1/Mickey-Mouse-CSS-ART/main/path/to/readme1.PNG)
 
 # DESENHEI O MICKEY MOUSE COM CSS ART
 
