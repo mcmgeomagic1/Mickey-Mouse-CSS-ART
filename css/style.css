@@ -1,0 +1,276 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Walter";
+	src:
+		url('../fonts/Walter.woff') format('woff'),
+		url('../fonts/Walter.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html {
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	font-family: inter;
+    font-size: 16px;
+    font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom, rgb(71,166, 249) 50%, #162d4b);
+}
+
+body:before {
+	content: "Disney";
+	position: absolute;
+	font-family: Walter;
+	font-size: 750%;
+	opacity: .4;
+	top: 0em;
+}
+
+.container{
+	width: 190px;
+	height: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:2.9em;
+}
+
+.cabeca {
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	position: relative;
+	background: none;
+	transform: rotate(deg);
+}
+.cabelo {
+	width: 100%;
+	height: 95%;
+	background:#000;
+	position: absolute;
+	top: 0em;
+	left: 0em;
+    border-radius: 50%;
+	
+}
+.cabelo:before {
+	content: "";
+	position: absolute;
+	background: #000;
+	width: 50%;
+	height: 60%;
+	top: -4.1em;
+	left:-.7em;
+	border-radius: 48%;
+	transform: rotate(53deg);
+}
+.cabelo:after {
+	content: "";
+	position: absolute;
+	background: #000;
+	width: 53%;
+	height: 53%;
+	top: -2.9em;
+	right: -2.5em;
+	border-radius: 50%;
+	transform: rotate(71deg);
+}
+
+.olhos {
+	background: #fdd7c2;
+	position: absolute;
+	width: 40%;
+	height: 56%;
+	top: 1.4em;
+	border-radius: 50%;
+}
+.olhos__esquerda {
+	left: 1.7em;
+}
+.olhos__direita {
+    right: 1.7em;
+}
+.vista {
+	background: #fff;
+	position: absolute;
+	bottom: 1em;
+	border: 2px solid #d8946b;
+	width: 31%;
+	height: 60%;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.vista__esquerda {
+    right: .9em;
+}
+
+.vista__direita {
+	left: .9em;
+}
+
+.vista__esquerda:after, .vista__direita:after {
+	content: "";
+	position: absolute;
+	background: #000;
+	width: 70%;
+	height: 50%;
+	bottom: 0;
+	border-radius: 50%;
+}
+.vista__esquerda:after {
+	right: 0;
+}
+.vista__direita:after {
+	left: 0;
+}
+
+.nariz {
+	position: absolute;
+	left: 3.7em;
+	bottom:2.7em;
+	width: 28%;
+	height: 18.3%;
+	background: #000;
+	border-radius: 50%;
+	z-index: 4;
+}
+.boca{
+	z-index: 3;
+	position: absolute;
+}
+.boca {
+	border-top: 4px solid #d0865e;
+	background: #fdd7c2;
+	width: 66%;
+	height: 66%;
+	bottom: 1.6em;
+	left: 1.8em;
+	border-radius: 100%;
+	clip-path: circle(50% at 40% 0);
+	transform: rotate(193deg);
+}
+.nariz:before, .nariz:after{
+	content: "";
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: none;
+	border: 2.5px solid #d8946b;
+	clip-path: circle(40% at 40% 0);
+}
+.nariz:before {
+	left: -1.7em;
+	top: .9em;
+	transform: rotate(-30deg);
+}
+.nariz:after {
+	right: -1.8em;
+	top: .9em;
+	transform: rotate(80deg);
+}
+
+.boca2 {
+	position: absolute;
+	z-index: 2;
+	width: 55%;
+	height: 20%;
+	background: #000;
+	left: 2.9em;
+	bottom: .2em;
+	clip-path: circle(50% at 40% 0);
+}
+.boca2:after{
+	content: "";
+	position: absolute;
+	width: 30%;
+	height: 5%;
+	background: #000;
+	top: .9em;
+	left: 1.2em;
+	transform: rotate(60deg);
+}
+.boca2:before{
+	content: "";
+	position: absolute;
+	width: 40%;
+	height: 45%;
+	left:1.1em;
+	background: linear-gradient(to top, #f8947c 50%, #000);
+	bottom: -0.1em;
+	border-radius: 50%;
+}
+.queixo{
+	position: absolute;
+	background: #fdd7c2;
+	z-index: 1;
+	bottom: -.3em;
+	left: 3.20em;
+	width: 38%;
+	height: 23%;
+	border-radius: 50%;
+	border-bottom: 3px solid #d0865e;
+}
+.bochecha{
+	position: absolute;
+	bottom: .6em;
+	height: 40%;
+	width: 100%;
+	border-left:2px solid #d0865e;
+	border-right: 2px solid #d0865e;
+	border-bottom: 2px solid #d0865e;
+	background:#fdd7c2;
+	border-radius: 50%;
+}
+
+/*--------------Contexto---------------*/
+
+.contexto{
+	padding-top: 1em;
+	text-align: center;
+
+}
+h1 {
+	font-size: 240%;
+    font-weight: 100;
+    font-weight:500;
+    margin-bottom: .5em;
+    letter-spacing: 3.2px;
+}
+
+span{
+	font-size: 90%;
+	opacity: .7;
+}
+
+
+.medias {
+	margin-top: 1.7em;
+	width: 300px;
+	height: 45%;
+	background: #00101d;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 3.5em;
+	color: #f2a57b;
+}
+
+i {
+	font-weight: bold;
+	font-size: 150%;
+}
+
+
+

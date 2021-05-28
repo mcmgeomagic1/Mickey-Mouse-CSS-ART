@@ -1,0 +1,80 @@
+@media only screen and (max-width: 700px) {
+	body:before {
+		font-size: 550%;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	body:before {
+	   font-size: 460%;
+	   top: 1.2em;
+	}
+
+	.container {
+		width: 165px;
+		height: 165px;
+	}
+	.cabelo:before {
+		top:-4em;
+	}
+	.cabelo:after {
+		top:-2.4em;
+	}
+    .vista {
+    	top: .8em;
+    }
+	.nariz {
+		left: 3.19em;
+		bottom: 2.26em;
+	}
+	.boca {
+		bottom: 1.3em;
+		left: 1.49em;
+	}
+
+	.boca2 {
+		left: 2.5em;
+	}
+
+	.nariz:after {
+		right: -1.6em;
+		top: .8em;
+	}
+	.queixo{
+
+		left:2.8em;
+	}
+	h1{
+		font-size: 180%;
+		letter-spacing: 1.6px;
+	}
+
+	span {
+		font-size: 80%;
+	}
+
+	.medias {
+		width: 217px;
+		padding: 0 2.3em;
+		margin-top: 1.4em; 
+	}
+
+	i{
+		font-size: 110%;
+	}
+}
+
+
+@media only screen and (max-width: 360px) {
+	body:before {
+		font-size: 440%;
+		top: 1em;
+	}
+}
+@media only screen and (max-width: 359px) {
+	body:before {
+		font-size: 420%;
+		top: .5em;
+	}
+	
+}
