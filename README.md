@@ -1,9 +1,13 @@
-![alt text](https://github.com/mcmgeomagic1/Mickey-Mouse-CSS-ART/blob/main/readme1.PNG)
+# Mickey Mouse CSS ART
+## Designed only with HTML + CSS
+This is the Mickey Mouse version fully designed through pure CSS code.
 
-# DESENHEI O MICKEY MOUSE COM CSS ART
+[See the LIVE VERSION ](https://mcmgeomagic1.github.io/Desenhei_o_panda_com_css/) 
 
-Olá pessoal, dessa vés para mais um trabalho de CSS ART, desenhei o Mickey Mouse com HTML & CSS puro. Veja como ficou e me diz oque achou nos comentário
+![readme](readme.png)
 
-Siga.me também em:
-página oficial: MCM Media
-Portfólio:  https://mcmgeomagic1.github.io/mcmfolio/
+### Technologies
+* HTML
+* CSS
+---
+---
